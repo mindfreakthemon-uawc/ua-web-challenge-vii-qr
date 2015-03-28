@@ -1,0 +1,28 @@
+{
+  "name": "ua-web-challenge-vii-qr",
+  "version": "1.0.0",
+  "description": "ua-web-challenge-vii-qr",
+  "main": "app/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindfreakthemon/ua-web-challenge-vii-qr.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mindfreakthemon/ua-web-challenge-vii-qr/issues"
+  },
+  "homepage": "https://github.com/mindfreakthemon/ua-web-challenge-vii-qr",
+  "dependencies": {
+    "mathjs": "^1.4.0",
+    "nock": "^0.59.1",
+    "node-gitter": "^1.2.8",
+    "nomnom": "^1.8.1",
+    "winston": "^0.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.4",
+    "gulp-nodemon": "^1.0.5"
+  }
+}

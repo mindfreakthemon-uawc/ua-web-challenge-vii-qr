@@ -26,3 +26,16 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# OS X
+.DS_Store
+
+# Idea workspace
+*.iws
+
+# Generated
+public/js/
+public/css/
+public/html/
+public/lib/
+public/templates.js
