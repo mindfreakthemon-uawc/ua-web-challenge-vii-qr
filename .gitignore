@@ -32,6 +32,9 @@ node_modules
 
 # Idea workspace
 *.iws
+*.ipr
+*.iml
+.idea
 
 # Generated
 public/js/
