@@ -7,9 +7,16 @@ function isParsable(message) {
 
 function parse(message) {
 	var matches = message.text.match(regExp),
-		expression = matches[1];
+		expression = matches[1],
+		result;
 
-	return '`' + expression + ' = ' + math.eval(expression) + '`';
+	try {
+		result = math.eval(expression);
+	} catch (e) {
+		result = e.message;
+	}
+
+	return '`' + expression + ' = ' + result + '`';
 }
 
 exports.parse = parse;
